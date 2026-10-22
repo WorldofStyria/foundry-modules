@@ -1,0 +1,56 @@
+{
+  "id": "styria-serpent-marsh-pregens",
+  "title": "World of Styria: Serpent Marsh Convention Pregens",
+  "description": "16 pregenerated PF2e Remaster characters ready to play in The World of Styria.",
+  "version": "1.0.2",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "14.369"
+  },
+  "authors": [
+    {
+      "name": "Sutton J. Moore"
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "7.12.2",
+          "verified": "8.6.1"
+        }
+      }
+    ],
+    "requires": [
+      {
+        "id": "world-of-styria",
+        "type": "module",
+        "compatibility": {
+          "minimum": "1.0.3",
+          "verified": "1.0.5"
+        }
+      }
+    ]
+  },
+  "packs": [
+    {
+      "name": "pregens",
+      "label": "Serpent Marsh Convention Pregens",
+      "path": "packs/pregens",
+      "type": "Actor",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "manifest": "https://raw.githubusercontent.com/WorldofStyria/foundry-modules/main/manifests/styria-serpent-marsh-pregens/module.json",
+  "download": "https://github.com/WorldofStyria/foundry-modules/releases/download/styria-serpent-marsh-pregens-v1.0.2/styria-serpent-marsh-pregens-v1.0.2.zip",
+  "url": "https://github.com/WorldofStyria/foundry-modules",
+  "license": "LICENSE.txt",
+  "readme": "README.md",
+  "changelog": "https://github.com/WorldofStyria/foundry-modules/releases/tag/styria-serpent-marsh-pregens-v1.0.2"
+}

@@ -1,0 +1,222 @@
+{
+  "id": "world-of-styria",
+  "title": "World of Styria",
+  "description": "World of Styria: The Common Chronicle.",
+  "version": "1.0.5",
+  "compatibility": {
+    "minimum": "13.348",
+    "verified": "14.369"
+  },
+  "authors": [
+    {
+      "name": "Sutton J. Moore"
+    }
+  ],
+  "flags": {
+    "world-of-styria": {
+      "pf2e-homebrew": {
+        "creatureTraits": {
+          "hb_steel-dwarf": {
+            "label": "Steel Dwarf",
+            "description": "Steel Dwarf: HP 10; Medium; Speed 20 ft.; Boosts Str, Con, free / Cha; Senses darkvision; Rare"
+          },
+          "hb_dawn-elf": {
+            "label": "Dawn Elf",
+            "description": "Dawn Elf: HP 6; Medium; Speed 30 ft.; Boosts Dex, Int, free / none; Senses low-light; Rare"
+          },
+          "hb_star-elf": {
+            "label": "Star Elf",
+            "description": "Their eyes look like star fields rather than swirling gold."
+          },
+          "hb_umbral-elf": {
+            "label": "Umbral Elf",
+            "description": "Their hair is tarnished silver."
+          },
+          "hb_styrian-elf": {
+            "label": "Styrian Elf",
+            "description": "Styrian Elf: HP 6; Medium; Speed 30 ft.; Boosts Dex, Int, free / Con; Senses low-light; Common"
+          },
+          "hb_thean": {
+            "label": "Thean",
+            "description": "Thean: HP 8; Medium; Speed 25 ft.; Boosts Str, Con, free / none; Senses darkvision; Rare"
+          }
+        },
+        "featTraits": {
+          "hb_steel-dwarf": "Steel Dwarf",
+          "hb_dawn-elf": "Dawn Elf",
+          "hb_star-elf": "Star Elf",
+          "hb_umbral-elf": "Umbral Elf",
+          "hb_styrian-elf": "Styrian Elf",
+          "hb_thean": "Thean"
+        },
+        "languages": {
+          "hb_dawn-elven": "Dawn Elven",
+          "hb_thean": "Thean"
+        }
+      }
+    }
+  },
+  "packs": [
+    {
+      "name": "steel-dwarf",
+      "label": "World of Styria: Steel Dwarf",
+      "path": "packs/steel-dwarf",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "dawn-elf",
+      "label": "World of Styria: Dawn Elf",
+      "path": "packs/dawn-elf",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "star-elf",
+      "label": "World of Styria: Star Elf",
+      "path": "packs/star-elf",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "umbral-elf",
+      "label": "World of Styria: Umbral Elf",
+      "path": "packs/umbral-elf",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "styrian-elf",
+      "label": "World of Styria: Styrian Elf",
+      "path": "packs/styrian-elf",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "halfling",
+      "label": "World of Styria: Halfling",
+      "path": "packs/halfling",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "thean",
+      "label": "World of Styria: Thean",
+      "path": "packs/thean",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "human-dwarf",
+      "label": "World of Styria: Human and Dwarf Options",
+      "path": "packs/human-dwarf",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "standard-heritages",
+      "label": "World of Styria: Gnome, Orc, Goblin, and Lizardfolk Heritages",
+      "path": "packs/standard-heritages",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "backgrounds",
+      "label": "World of Styria: Backgrounds",
+      "path": "packs/backgrounds",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "deities",
+      "label": "World of Styria: Deities and Faiths",
+      "path": "packs/deities",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "spells",
+      "label": "World of Styria: Spells",
+      "path": "packs/spells",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "lore",
+      "label": "World of Styria: Player Lore",
+      "path": "packs/lore",
+      "type": "JournalEntry",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "7.12.2",
+          "verified": "8.6.1"
+        }
+      }
+    ]
+  },
+  "url": "https://github.com/WorldofStyria/foundry-modules",
+  "manifest": "https://raw.githubusercontent.com/WorldofStyria/foundry-modules/main/manifests/world-of-styria/module.json",
+  "download": "https://github.com/WorldofStyria/foundry-modules/releases/download/world-of-styria-v1.0.5/world-of-styria-v1.0.5.zip",
+  "license": "LICENSE.txt",
+  "readme": "README.md",
+  "changelog": "https://github.com/WorldofStyria/foundry-modules/releases/tag/world-of-styria-v1.0.5"
+}
